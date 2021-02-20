@@ -13,7 +13,7 @@ const vm = Vue.createApp({
       this.todos.push(UneTache);
       this.tache='';
     },
-    SupprimerTache(){
+    SupprimerTache(){////C et a ce niveau j aimerai supprimer l tache avec cette methode
       let tasks = this.todos;
         let index = tasks.indexOf();
         this.todos.splice(index, 1);
