@@ -22,7 +22,7 @@
         <div>
           <h3>Tache à faire</h3>
          <div  v-for = "todo in todos" style="height:100px;" class="bg-secondary" v-model="todo" >
-          <p>{{todo}}</p> <button class="btn btn-success  btn-lg btn-block"  style="float: right;" @click="SupprimerTache">Terminé</button>
+          <p>{{todo}}</p> <button class="btn btn-success  btn-lg btn-block"  style="float: right;" @click="SupprimerTache(todo)">Terminé</button>
           <br>
          </div>
          
